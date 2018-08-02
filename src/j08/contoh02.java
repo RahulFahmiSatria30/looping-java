@@ -11,6 +11,8 @@ public class contoh02 {
         }
         //PERULANGAN DENGAN WHILE
         
+        System.out.println();
+        
         x = 1;
         
         while(x <= 10)
@@ -21,10 +23,12 @@ public class contoh02 {
         
         //PERULANGAN DENGAN DO WHILE
         
+        System.out.println();
+        
         x = 1;
         do
         {
-            System.out.append(x + " ");
+            System.out.print(x + " ");
             x++;
         }
            while (x <= 10);
